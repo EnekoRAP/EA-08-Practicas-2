@@ -11,7 +11,7 @@
     <artifactId>guia</artifactId>
     <version>1</version>
     <name>guia</name>
-    <description>Practica guia de miercoles noche 2023 IC</description>
+    <description>Practica guia de miercoles noche 2024 IC</description>
     <properties>
         <java.version>20</java.version>
     </properties>
@@ -58,4 +58,3 @@
         </plugins>
     </build>
 </project>
-
