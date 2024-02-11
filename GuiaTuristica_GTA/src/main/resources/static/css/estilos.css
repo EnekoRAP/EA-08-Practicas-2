@@ -1,55 +1,41 @@
-/* Reset de estilos básico */
-body, h1, h2, p, ul, img, a {
+body {
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
+    background-color: grey; /*Gris claro*/
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+header {
+    background-color: #228B22;
+    color: black;
+    text-align: left;
 }
 
-/* Barra superior */
-.header {
-    background-color: #333;
-    color: #fff;
+section {
+    position: fixed;
+    background-color: black;    
+    top: 80px;
+    left: 20%;
+    bottom: 20px;
+    width: 80%
+}
+
+footer {
+    background-color: #228B22;
+    color: black;
+    text-align: center;
     padding: 10px;
-    text-align: center;
 }
 
-.header a {
-    color: #fff;
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
     text-decoration: none;
+    font-size: 18px;
     margin: 0 10px;
-    font-size: 16px;
-}
-
-/* Contenido principal */
-.container {
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Enlaces de navegación */
-.navigation {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.navigation a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    margin-right: 10px;
-    border-radius: 5px;
-}
-
-.navigation a:hover {
-    background-color: #555;
 }
