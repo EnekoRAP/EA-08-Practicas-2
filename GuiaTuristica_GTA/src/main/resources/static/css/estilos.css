@@ -1,49 +1,55 @@
-body {
-    font-family: 'Arial', sans-serif;
+/* Reset de estilos básico */
+body, h1, h2, p, ul, img, a {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
 
-header {
+/* Barra superior */
+.header {
     background-color: #333;
-    color: white;
+    color: #fff;
+    padding: 10px;
     text-align: center;
-    padding: 1em;
 }
 
-nav {
-    background-color: #444;
-    padding: 0.5em;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav a {
+.header a {
+    color: #fff;
     text-decoration: none;
-    color: white;
-    font-weight: bold;
+    margin: 0 10px;
+    font-size: 16px;
 }
 
-main {
-    padding: 1em;
+/* Contenido principal */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-footer {
-    background-color: #333;
-    color: white;
+/* Enlaces de navegación */
+.navigation {
     text-align: center;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    margin-top: 20px;
+}
+
+.navigation a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.navigation a:hover {
+    background-color: #555;
 }

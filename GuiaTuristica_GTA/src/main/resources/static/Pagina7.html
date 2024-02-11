@@ -4,15 +4,52 @@
         <meta charset="UTF-8">
         <style>
             body {
+                margin: 0;
                 font-family: Arial, sans-serif;
-                margin: 20px;
             }
-            .lugar {
-                margin-bottom: 20px;
+            
+            .navbar {
+                background-color: #333;
+                overflow: hidden;
+            }
+            
+            .navbar a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            .navbar a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            
+            .container {
+                padding: 100px;
+            }
+            
+            .footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 0px;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
             }
         </style>
     </head>
     <body>
+        
+        <div class="navbar">
+            <a href="Pagina6.html">Back</a>
+            <a href="index.html">Home</a>
+            <a href="Pagina8.html">Next</a>
+        </div>
+        
         <h1>Lugares de Interés</h1>
         <div class="interés">
             <h2>Embalse y Presa Sherman</h2>
@@ -63,7 +100,8 @@
             <img src="https://static.wikia.nocookie.net/gtawiki/images/a/a7/TheBigEar.jpg/revision/latest?cb=20100411065431" alt="The Big Ear image" style="width:400px;height:200px;">
         </div>
         
-        <a href="pagina6.html">&laquo; Página Anterior</a> |
-        <a href="pagina8.html">Siguiente Página &raquo;</a>
+        <div class="footer">
+            <p>&copy; 2024 Guía Turística GTA San Andreas</p>
+        </div>
     </body>
 </html>
